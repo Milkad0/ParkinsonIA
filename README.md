@@ -8,7 +8,7 @@ Watch the video here :
 - Clone the repo and cd into the directory
 ```sh
 git clone git@github.com:Milkad0/ParkinsonIA.git
-cd ParkinsonIA/ParkinsonFrontEnd
+cd ParkinsonIA
 ```
 - Install jolib, pandas, numpy, sklearn and praat-parselmouth
 ```sh

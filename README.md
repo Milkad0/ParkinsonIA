@@ -2,6 +2,7 @@
 
 Watch the video here :
 
+![](img/ExampleApp.PNG)
 
 ## Getting Started
 - Clone the repo and cd into the directory

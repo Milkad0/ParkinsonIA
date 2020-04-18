@@ -40,3 +40,7 @@ python main.py
 - Watch the result !
 
 ![](img/ScreenAIStep3.png)
+
+## Collaborators
+
+Alan MARTHINEAU - Vincent ETHEVE - Augustin LOLLIVIER

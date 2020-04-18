@@ -22,3 +22,21 @@ pip install praat-parselmouth
 ```sh
 python main.py
 ```
+## How it works?
+
+
+- Click on the "Choose File" button
+
+![](img/ScreenAIStep1.png)
+
+- Select a .wav audio file
+
+![](img/parkinScreenWav.PNG)
+
+- Click on the "Detect" button
+
+![](img/ScreenAIStep2.png)
+
+- Watch the result !
+
+![](img/ScreenAIStep3.png)

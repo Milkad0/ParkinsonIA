@@ -1,6 +1,8 @@
 # Let's start
 
-Watch the video here :
+Watch the presentation video here :https://www.youtube.com/
+
+Take a look at our Medium article : https://medium.com/
 
 ![](img/ExampleApp.PNG)
 

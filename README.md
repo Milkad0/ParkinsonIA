@@ -1,6 +1,8 @@
 # Let's start
 
-Watch the video here :
+Watch the presentation video here :https://www.youtube.com/
+
+Take a look at our Medium article : https://medium.com/
 
 ![](img/ExampleApp.PNG)
 
@@ -17,6 +19,8 @@ pip install pandas
 pip install numpy
 pip install sklearn
 pip install praat-parselmouth
+pip install pyaudio
+
 ```
 - Run the app
 ```sh

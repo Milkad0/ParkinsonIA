@@ -66,7 +66,7 @@ python main.py
 
 - Watch the result !
 
-![](img/ScreenAIStep3.png)
+![](img/ParkiStep.png)
 
 ## Collaborators
 

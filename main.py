@@ -104,20 +104,19 @@ def execAI():
     global filePath
     errmsg = "Path not valid"
 
-    if (filePath == "unknow") and os.path.exists("recordingAudio.wav"):
+    if ((filePath == "unknow") or (filePath == "")) and os.path.exists("recordingAudio.wav"):
         filePath = "recordingAudio.wav"
 
     if (filePath != "unknow") and (filePath != ""):
         if predict(clf, filePath):
-            # Test label3
+            # Test label1
             try:
-                part_label3
+                part_label1
             except NameError:
-                part_label3 = None
+                part_label1 = None
 
-            if part_label3 is not None:
-                part_label3.destroy()
-
+            if part_label1 is not None:
+                part_label1.destroy()
             # Test label2
             try:
                 part_label2
@@ -126,6 +125,14 @@ def execAI():
 
             if part_label2 is not None:
                 part_label2.destroy()
+            # Test label3
+            try:
+                part_label3
+            except NameError:
+                part_label3 = None
+
+            if part_label3 is not None:
+                part_label3.destroy()
 
             # Display answer
             part_label1 = Label(app, text='Yes', font=('bold', 14), bg='#facd54', pady=20)
@@ -139,6 +146,14 @@ def execAI():
 
             if part_label1 is not None:
                 part_label1.destroy()
+            # Test label2
+            try:
+                part_label2
+            except NameError:
+                part_label2 = None
+
+            if part_label2 is not None:
+                part_label2.destroy()
             # Test label3
             try:
                 part_label3
@@ -151,6 +166,7 @@ def execAI():
             # Display answer
             part_label2 = Label(app, text='No', font=('bold', 14), bg='#facd54', pady=20)
             part_label2.place(x=400, y=105)
+        filePath = "unknow"
     else:
         # Test label1
         try:
@@ -168,6 +184,14 @@ def execAI():
 
         if part_label2 is not None:
             part_label2.destroy()
+        #Test label3
+        try:
+            part_label3
+        except NameError:
+            part_label3 = None
+
+        if part_label3 is not None:
+            part_label3.destroy()
 
         # Display answer
         part_label3 = Label(app, text=errmsg, font=('bold', 14), bg='#facd54', pady=20)
@@ -175,6 +199,8 @@ def execAI():
 
         print(errmsg)
         return errmsg
+    if os.path.exists("recordingAudio.wav"):
+        os.remove("recordingAudio.wav")
 
 
 # Create Window
@@ -198,8 +224,12 @@ add_btn.place(x=100, y=200)
 part_label = Label(app, text='Do you have Parkinson ?', bg='#facd54', font=('bold', 14), pady=20)
 part_label.place(x=185, y=105)
 
+if os.path.exists("recordingAudio.wav"):
+    os.remove("recordingAudio.wav")
+
 # App title
 app.title('AI Parkinson Detector')
 app.geometry('600x400')
 App(app)
 app.mainloop()
+

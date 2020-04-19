@@ -24,6 +24,7 @@ python main.py
 ```
 ## How it works?
 
+### Choose a file 
 
 - Click on the "Choose File" button
 
@@ -32,6 +33,28 @@ python main.py
 - Select a .wav audio file
 
 ![](img/parkinScreenWav.PNG)
+
+- Click on the "Detect" button
+
+![](img/ScreenAIStep2.png)
+
+- Watch the result !
+
+![](img/ScreenAIStep3.png)
+
+### Record your voice
+
+- Click on the "Recording" button
+
+![](img/ScreenAIRecordingStep1.png)
+
+- Turn on your microphone and read the displayed text
+
+![](img/ScreenAIRecordingStep2.png)
+
+- Click on the "Stop Recording" button
+
+![](img/ScreenAIRecordingStep3.png)
 
 - Click on the "Detect" button
 

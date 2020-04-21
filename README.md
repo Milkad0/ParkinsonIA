@@ -4,6 +4,8 @@ Watch the presentation video here :https://www.youtube.com/watch?v=K1oLz4x87Ug&f
 
 Take a look at our Medium article : https://medium.com/@alan.marthineau/diagnosing-parkinsons-disease-by-voice-using-linear-regression-in-python-73aad2712fba?sk=cb817fbc1479dbfde6095c98accd9c20
 
+GitHub of the Parkinson detect lib : https://github.com/alan91620/ParkinsonRecoLib
+
 ![](img/ExampleApp.PNG)
 
 ## Getting Started

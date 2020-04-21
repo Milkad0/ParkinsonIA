@@ -1,6 +1,6 @@
 # Let's start
 
-Watch the presentation video here :https://www.youtube.com/
+Watch the presentation video here :https://www.youtube.com/watch?v=K1oLz4x87Ug&feature=youtu.be
 
 Take a look at our Medium article : https://medium.com/
 

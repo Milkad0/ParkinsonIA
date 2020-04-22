@@ -14,7 +14,7 @@ GitHub of the Parkinson detect lib : https://github.com/alan91620/ParkinsonRecoL
 git clone git@github.com:Milkad0/ParkinsonIA.git
 cd ParkinsonIA
 ```
-- Install jolib, pandas, numpy, sklearn and praat-parselmouth
+- Install jolib, pandas, numpy, sklearn, praat-parselmouth and pyaudio
 ```sh
 pip install joblib
 pip install pandas

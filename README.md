@@ -54,6 +54,9 @@ pip install PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
 ```
 
 If you have the following error "filename.whl is not supported wheel on this platform", try to use 32bits file instead of 64bits file (and vice versa)
+
+Package link : https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+
 - Run the app
 ```sh
 python main.py

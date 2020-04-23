@@ -14,16 +14,46 @@ GitHub of the Parkinson detect lib : https://github.com/alan91620/ParkinsonRecoL
 git clone git@github.com:Milkad0/ParkinsonIA.git
 cd ParkinsonIA
 ```
-- Install jolib, pandas, numpy, sklearn, praat-parselmouth and pyaudio
+- Install jolib, pandas, numpy, sklearn, and praat-parselmouth
 ```sh
 pip install joblib
 pip install pandas
 pip install numpy
 pip install sklearn
 pip install praat-parselmouth
-pip install pyaudio
-
 ```
+
+- Install pyaudio
+
+Try to install with pip :
+```sh
+pip install pyaudio
+```
+If it does not work, install with one of the file in the "package" directory
+
+Python 3.8.* :
+
+32bits
+```sh
+pip install PyAudio-0.2.11-cp38-cp38-win32.whl
+```
+64bits
+```sh
+PyAudio-0.2.11-cp38-cp38-win_amd64.whl
+```
+
+Python 3.7.* :
+
+32bits
+```sh
+PyAudio-0.2.11-cp37-cp37m-win32.whl
+```
+64bits
+```sh
+PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
+```
+
+If you have the following error "filename.whl is not supported wheel on this platform", try to use 32bits file instead of 64bits file (and vice versa)
 - Run the app
 ```sh
 python main.py

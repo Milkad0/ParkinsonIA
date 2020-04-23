@@ -14,5 +14,5 @@ setup(
     name="Parkinson Detector",
     version="0.1",
     description="Détecte si une personne à Parkinson via un fichier audio .wav",
-    executables=[Executable("FrontEnd/main.py")]
+    executables=[Executable("FrontEnd/main.py")], requires=['pyaudio']
 )
